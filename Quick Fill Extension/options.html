@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            width: 300px;
+        }
+        h1 {
+            font-size: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: calc(100% - 10px);
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        button {
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .shortcut-info {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quick Fill Extension</h1>
+    <p>This extension allows you to quickly insert text into text fields on web pages. Simply enter your desired text below and click "Save".</p>
+    <label for="text">Text to insert:</label>
+    <input type="text" id="text" name="text">
+    <button id="save">Save</button>
+    <p class="shortcut-info">Shortcut: Ctrl + Y</p>
+    <script src="options.js"></script>
+</body>
+</html>
